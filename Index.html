@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- title of app-->
+
+    <title>Star Wars Quiz</title>   
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="description" content="Create and Test your App Idea"> 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">  
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+
+  <!--Start Section-->
+
+      <h1>Star Wars Quiz</h1>
+        <p>Test your knowledge of the Star Wars universe!</p>
+
+  <!--Question's section-->
+
+      <form role="form" action="/quiz" accept-charset="UTF-8" class="quiz">
+        <fieldset>
+          <legend>
+            <p>Which planet is the capital of the Galatic Republic?</p> 
+          </legend>
+               <ol type="A">
+                 <li><label for="answerA">Nar Shadda</label><option id="answerA" name="answer" value="0"></li>
+                 <li><label for="answerB">Dantooine</label><option id="answerB" name="answer" value="1"></li>
+                 <li><label for="answerC">Coruscant</label><option id="answerC" name="answer" value="2"></li>
+                 <li><label for="answerD">Tatooine</label><option id="answerD" name="answer" value="3"></li>
+               </ol>
+            <input type="submit">
+        </fieldset>
+      </form>
+
+  <!--Feedback Section-->
+
+      <h2>Sorry, you are incorrect.</h2>
+      <p>The correct answer was C.</p>
+      <button id="nextQuestionButton">Next question</button>
+
+  <!--Final Section-->
+
+      <h2>Quiz Complete!  How did you do?</h2>
+      <p>You scored 10/10</p>
+      <p>Excellent job!<p>
+      <button id="restartQuizButton">Restart Quiz</button>
+    </main>
+  </body>
+</html>
