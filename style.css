@@ -1,7 +1,23 @@
-* {
-    box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
-    background: rgb(51, 50, 50);
-    color : gold;
+h1, aside , .questions, footer, .feedback-page-incorrect,.feedback-page-correct{
+  border: 1px solid grey;
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 100px;
+  margin: 10px 0px;
+  background-color:rgb(194, 181, 181);
+  padding: 10px
 }
 
+
+.questions{
+  height: 180px;
+}
+
+footer, h1{
+  height:50px;
+}
+
+.feedback-page-incorrect, .feedback-page-correct{
+  height: 130px;
+}
